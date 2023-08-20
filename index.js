@@ -1,3 +1,5 @@
+//this will take a file name a.json, and in the file a.json there is an array of strings(url) and it will take one by one url from the file and call the api after delay of 500ms
+
 const fs = require("fs");
 
 const JSON_FILE_PATH = "./a.json";
